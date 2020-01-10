@@ -56,7 +56,7 @@ public class Snack {
         return quantity;
     }
 
-    public void addQuantity(int quantity){
+    public void setQuantity(int quantity){
         this.quantity += quantity;
     }
 

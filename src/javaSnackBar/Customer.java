@@ -24,6 +24,10 @@ public class Customer {
         this.name = name;
     }
 
+    public void buyItem(double price, int quantity) {
+        cash -= (price * quantity);
+    }
+
     public void addCash(double amount){
         cash += amount;
     }
